@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Dice Dash mobile game by Ryan Caldwell.">
+  <title>Dice Dash – Privacy Policy</title>
+  <style>
+    :root {
+      --baize-deep: #0F3D24;
+      --baize-mid: #1B5E35;
+      --baize-lite: #2E8B57;
+      --header: #1B5E20;
+      --gold: #FFC94A;
+      --gold-deep: #E6A800;
+      --cream: #FFFDF9;
+      --ivory: #F7F5F0;
+      --ivory-deep: #E6E2D8;
+      --ink: #1A2E1F;
+      --wood: #7A4A22;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--ink);
+      background: var(--ivory);
+    }
+    .frame {
+      max-width: 740px;
+      margin: 0 auto;
+      background: var(--cream);
+      min-height: 100vh;
+      box-shadow: 0 0 40px rgba(15, 61, 36, 0.12);
+    }
+    header {
+      background: linear-gradient(180deg, #2E8B57 0%, #1B5E35 55%, #0F3D24 100%);
+      color: var(--cream);
+      padding: 36px 24px 28px;
+      text-align: center;
+      border-bottom: 4px solid var(--gold);
+    }
+    .die {
+      width: 44px;
+      height: 44px;
+      margin: 0 auto 12px;
+      display: block;
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: 1.85rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    header .tag {
+      margin: 0;
+      color: var(--gold);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    main { padding: 28px 22px 72px; }
+    .meta {
+      background: var(--ivory);
+      border: 1px solid var(--ivory-deep);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin: 0 0 28px;
+    }
+    .meta p { margin: 0 0 6px; }
+    .meta p:last-child { margin: 0; }
+    h2 {
+      color: var(--header);
+      font-size: 1.25rem;
+      margin: 32px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--gold);
+    }
+    p, li { font-size: 1.02rem; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 1.25rem; }
+    li { margin: 4px 0; }
+    a { color: var(--header); }
+    a:hover { color: var(--baize-lite); }
+    strong { font-weight: 650; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9em;
+      background: #e8f5ec;
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--ivory-deep);
+      color: #4a5c4e;
+      font-size: 0.92rem;
+    }
+    @media (min-width: 700px) {
+      body { background: #dce8df; padding: 24px 16px 48px; }
+      .frame { border-radius: 16px; overflow: hidden; min-height: 0; }
+      main { padding: 36px 40px 80px; }
+      header { padding: 44px 40px 32px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <svg class="die" viewBox="0 0 44 44" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="41" height="41" rx="8" fill="#F7F5F0" stroke="#FFC94A" stroke-width="3"/>
+        <circle cx="13" cy="13" r="3.1" fill="#1C1C1C"/>
+        <circle cx="31" cy="13" r="3.1" fill="#1C1C1C"/>
+        <circle cx="13" cy="22" r="3.1" fill="#1C1C1C"/>
+        <circle cx="31" cy="22" r="3.1" fill="#1C1C1C"/>
+        <circle cx="13" cy="31" r="3.1" fill="#1C1C1C"/>
+        <circle cx="31" cy="31" r="3.1" fill="#1C1C1C"/>
+      </svg>
+      <h1>Dice Dash Privacy Policy</h1>
+      <p class="tag">A simple dice game. Your data stays on your device.</p>
+    </header>
+    <main>
+      <div class="meta">
+        <p><strong>Effective date:</strong> November 10, 2026</p>
+        <p><strong>Developer:</strong> Ryan Caldwell, Canada</p>
+        <p><strong>Contact:</strong> caldwellmryan@gmail.com</p>
+        <p><strong>App:</strong> Dice Dash (iOS and Android)</p>
+      </div>
+
+      <h2>Summary</h2>
+      <p>Dice Dash has no accounts of its own and no first-party analytics or servers. Names, statistics, settings and a saved game are stored only on your device. Optional full-screen ads between games are served by Google AdMob. A one-time <strong>Remove Ads</strong> in-app purchase turns those ads off on that device. Purchases are handled by Apple or Google, not by us.</p>
+
+      <h2>Information stored on your device</h2>
+      <p>To work properly, the app saves a small amount of information <strong>only on your own device</strong>, using the device’s standard app storage (Flutter <code>shared_preferences</code>):</p>
+      <ul>
+        <li>Player names you type in</li>
+        <li>Game statistics (wins, losses, streaks, fastest wins, head-to-head records)</li>
+        <li>Settings (sound on/off, bot speed)</li>
+        <li>A game in progress, so you can resume it later</li>
+        <li>Whether you have already seen the quick tour</li>
+        <li>Whether you have purchased or restored Remove Ads, and a local count of completed games used only to space ads out</li>
+      </ul>
+      <p>This information never leaves your device. It is not sent to the developer or to a Dice Dash server (there isn’t one). You can erase names and stats at any time in <strong>Settings → Reset Names / Reset Stats</strong>, or erase everything by deleting the app.</p>
+
+      <h2>Advertising (Google AdMob)</h2>
+      <p>When ads are enabled, the app shows full-screen interstitial ads <strong>only between games</strong> (after a win, before the next game or setup). Ads never appear during a turn, and there is no banner on the play screen. Ads are also capped so they do not appear after the first game of a session, and at most every other completed game.</p>
+      <p>Ads are provided by Google AdMob. To serve ads, measure them and fight fraud, Google may collect or process:</p>
+      <ul>
+        <li>Device and advertising identifiers (see App Tracking Transparency below)</li>
+        <li>IP address, and approximate location derived from IP</li>
+        <li>Device and app activity (usage data)</li>
+        <li>Diagnostic or technical data about ad requests</li>
+      </ul>
+      <p>That processing is controlled by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and AdMob policies. We do not receive a copy of this advertising data, and we do not combine it with your name or other information stored in the app.</p>
+      <p>The app requests <strong>non-personalized</strong> ads. You can remove ads permanently with the one-time Remove Ads purchase in Settings. After a purchase or restore, the app does not request ads at all.</p>
+      <p>If you are in the EEA, UK or another region where Google requires it, Google’s User Messaging Platform (UMP) may show a consent form before ads are requested.</p>
+
+      <h2>Advertising identifier and App Tracking Transparency (iOS)</h2>
+      <p>Dice Dash does <strong>not</strong> show Apple’s App Tracking Transparency (ATT) prompt and does not ask for permission to track you across other companies’ apps and websites. The app does not include an <code>NSUserTrackingUsageDescription</code>.</p>
+      <p>Because we do not request tracking permission, the app does not use Apple’s Identifier for Advertisers (IDFA) to track you. Google AdMob may still use other identifiers that Apple or Google allow without an ATT prompt (for example, the Identifier for Vendor on iOS, or the advertising ID on Android where permitted), along with the technical data listed above, to serve non-personalized ads and reduce fraud.</p>
+      <p>You can also limit ad tracking or reset identifiers in your device settings (for example, iOS Settings → Privacy &amp; Security → Tracking, or the equivalent advertising settings on Android).</p>
+
+      <h2>Purchases</h2>
+      <p>The optional Remove Ads product (product id <code>remove_ads</code>) is a one-time, non-consumable in-app purchase processed by Apple (App Store) or Google (Google Play). We never see your payment card or App Store / Google account details. A “purchased” flag is stored on the device so ads stay off after you restore purchases or reinstall.</p>
+
+      <h2>What we do not do</h2>
+      <ul>
+        <li>No accounts or sign-in</li>
+        <li>No Dice Dash servers, accounts database, or first-party analytics or crash-reporting SDKs</li>
+        <li>No access to your contacts, precise location, camera, microphone or photos</li>
+        <li>No ads during a turn, and no banner on the play screen</li>
+        <li>No selling of your information</li>
+      </ul>
+
+      <h2>Children’s privacy</h2>
+      <p>Dice Dash is suitable for all ages and does not include mature content. We do not knowingly collect personal information from children under 13 (or the equivalent minimum age in your region). Names typed into the game stay on the device. Google AdMob may process device identifiers for ads, as described above; we request non-personalized ads and do not use Apple’s tracking prompt. Parents or guardians can remove ads with the one-time purchase.</p>
+      <p>Dice Dash is not submitted in Apple’s Kids category. If the Android app is enrolled in Google Play’s Families policies, AdMob will need to be configured for child-directed / family-safe ads before release.</p>
+
+      <h2>Canada and PIPEDA</h2>
+      <p>The developer is based in Canada. We aim to follow the principles of Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA) and similar Canadian privacy laws:</p>
+      <ul>
+        <li>We do not collect or store your personal information on our own servers.</li>
+        <li>Information needed to play the game stays on your device, under your control.</li>
+        <li>The only personal or device data that may leave the device is what Apple, Google Play or Google AdMob process to provide the store, purchases or ads, under their own privacy policies.</li>
+        <li>You can access or delete the information stored in the app by viewing or resetting it in Settings, or by deleting the app.</li>
+        <li>Questions, access requests or privacy complaints can be sent to caldwellmryan@gmail.com. You may also contact the <a href="https://www.priv.gc.ca/">Office of the Privacy Commissioner of Canada</a>.</li>
+      </ul>
+
+      <h2>Third parties</h2>
+      <ul>
+        <li><strong>Google AdMob</strong> — ads and related device data (see above), only while ads have not been removed. <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+        <li><strong>Apple App Store / Google Play</strong> — downloads, purchases, and their own analytics and fraud prevention, under their policies.</li>
+      </ul>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, the updated version will be posted at this address with a new effective date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy or about Dice Dash? Contact Ryan Caldwell at <strong>caldwellmryan@gmail.com</strong>.</p>
+
+      <footer>
+        <p>© 2026 Ryan Caldwell. Dice Dash is a local, offline-friendly dice game.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
